@@ -94,12 +94,12 @@ def compare_models():
         "original_model": {
             "name": ORIGINAL_MODEL_NAME,
             "avg_perplexity": float(avg_original_ppl),
-            "perplexities": [float(p) for p in original_perplexities]
+            # "perplexities": [float(p) for p in original_perplexities]
         },
         "fine_tuned_model": {
             "name": FINE_TUNED_MODEL_PATH,
             "avg_perplexity": float(avg_fine_tuned_ppl),
-            "perplexities": [float(p) for p in fine_tuned_perplexities]
+            # "perplexities": [float(p) for p in fine_tuned_perplexities]
         }
     }
     

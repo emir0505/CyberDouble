@@ -1,34 +1,10 @@
 {
   "original_model": {
     "name": "microsoft/phi-4-mini-instruct",
-    "avg_perplexity": 138.49,
-    "perplexities": [
-      142.56,
-      135.78,
-      139.23,
-      141.87,
-      136.42,
-      137.95,
-      140.21,
-      138.76,
-      135.92,
-      137.19
-    ]
+    "avg_perplexity": 138.49
   },
   "fine_tuned_model": {
     "name": "fine_tuned_phi4_model",
-    "avg_perplexity": 26.87,
-    "perplexities": [
-      27.45,
-      25.89,
-      26.32,
-      27.91,
-      26.12,
-      25.76,
-      28.03,
-      26.54,
-      25.98,
-      27.82
-    ]
+    "avg_perplexity": 26.87
   }
 }

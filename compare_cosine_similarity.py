@@ -149,12 +149,12 @@ def compare_models():
         "original_model": {
             "name": ORIGINAL_MODEL_NAME,
             "avg_similarity": float(avg_original_similarity),
-            "similarities": [float(s) for s in all_original_similarities]
+            # "similarities": [float(s) for s in all_original_similarities]
         },
         "fine_tuned_model": {
             "name": FINE_TUNED_MODEL_PATH,
             "avg_similarity": float(avg_fine_tuned_similarity),
-            "similarities": [float(s) for s in all_fine_tuned_similarities]
+            # "similarities": [float(s) for s in all_fine_tuned_similarities]
         }
     }
     
